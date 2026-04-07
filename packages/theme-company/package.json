@@ -1,0 +1,14 @@
+{
+  "name": "slidev-theme-company",
+  "version": "0.1.0",
+  "keywords": [
+    "slidev-theme"
+  ],
+  "slidev": {
+    "components": "./components",
+    "styles": "./styles/index.css"
+  },
+  "exports": {
+    ".": "./styles/index.css"
+  }
+}

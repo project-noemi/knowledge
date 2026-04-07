@@ -1,0 +1,46 @@
+[build]
+publish = "dist"
+command = "npm run build"
+
+[build.environment]
+NODE_VERSION = "20"
+
+[[redirects]]
+from = "/example/*"
+to = "/example/index.html"
+status = 200
+
+[[redirects]]
+from = "/ai-foundations/*"
+to = "/ai-foundations/index.html"
+status = 200
+
+[[redirects]]
+from = "/prompt-engineering/*"
+to = "/prompt-engineering/index.html"
+status = 200
+
+[[redirects]]
+from = "/gemini-gems/*"
+to = "/gemini-gems/index.html"
+status = 200
+
+[[redirects]]
+from = "/notebooklm/*"
+to = "/notebooklm/index.html"
+status = 200
+
+[[redirects]]
+from = "/n8n-workflows/*"
+to = "/n8n-workflows/index.html"
+status = 200
+
+[[redirects]]
+from = "/ai-agents/*"
+to = "/ai-agents/index.html"
+status = 200
+
+[[redirects]]
+from = "/mcp-servers/*"
+to = "/mcp-servers/index.html"
+status = 200

@@ -1,0 +1,49 @@
+{
+  "name": "knowledge",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "bash scripts/build-all.sh",
+
+    "dev:example": "slidev decks/example/slides.md --open",
+    "build:example": "slidev build decks/example/slides.md --base /example/ --out dist/example",
+    "export:example": "slidev export decks/example/slides.md",
+
+    "dev:ai-foundations": "slidev decks/ai-foundations/slides.md --open",
+    "build:ai-foundations": "slidev build decks/ai-foundations/slides.md --base /ai-foundations/ --out dist/ai-foundations",
+    "export:ai-foundations": "slidev export decks/ai-foundations/slides.md",
+
+    "dev:prompt-engineering": "slidev decks/prompt-engineering/slides.md --open",
+    "build:prompt-engineering": "slidev build decks/prompt-engineering/slides.md --base /prompt-engineering/ --out dist/prompt-engineering",
+    "export:prompt-engineering": "slidev export decks/prompt-engineering/slides.md",
+
+    "dev:gemini-gems": "slidev decks/gemini-gems/slides.md --open",
+    "build:gemini-gems": "slidev build decks/gemini-gems/slides.md --base /gemini-gems/ --out dist/gemini-gems",
+    "export:gemini-gems": "slidev export decks/gemini-gems/slides.md",
+
+    "dev:notebooklm": "slidev decks/notebooklm/slides.md --open",
+    "build:notebooklm": "slidev build decks/notebooklm/slides.md --base /notebooklm/ --out dist/notebooklm",
+    "export:notebooklm": "slidev export decks/notebooklm/slides.md",
+
+    "dev:n8n-workflows": "slidev decks/n8n-workflows/slides.md --open",
+    "build:n8n-workflows": "slidev build decks/n8n-workflows/slides.md --base /n8n-workflows/ --out dist/n8n-workflows",
+    "export:n8n-workflows": "slidev export decks/n8n-workflows/slides.md",
+
+    "dev:ai-agents": "slidev decks/ai-agents/slides.md --open",
+    "build:ai-agents": "slidev build decks/ai-agents/slides.md --base /ai-agents/ --out dist/ai-agents",
+    "export:ai-agents": "slidev export decks/ai-agents/slides.md",
+
+    "dev:mcp-servers": "slidev decks/mcp-servers/slides.md --open",
+    "build:mcp-servers": "slidev build decks/mcp-servers/slides.md --base /mcp-servers/ --out dist/mcp-servers",
+    "export:mcp-servers": "slidev export decks/mcp-servers/slides.md"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.14.1",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "vue": "^3.5.29"
+  },
+  "devDependencies": {
+    "@oxc-parser/binding-darwin-arm64": "^0.123.0"
+  }
+}

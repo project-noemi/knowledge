@@ -1,0 +1,14 @@
+{
+  "rewrites": [
+    { "source": "/example/(.*)", "destination": "/example/index.html" },
+    { "source": "/ai-foundations/(.*)", "destination": "/ai-foundations/index.html" },
+    { "source": "/prompt-engineering/(.*)", "destination": "/prompt-engineering/index.html" },
+    { "source": "/gemini-gems/(.*)", "destination": "/gemini-gems/index.html" },
+    { "source": "/notebooklm/(.*)", "destination": "/notebooklm/index.html" },
+    { "source": "/n8n-workflows/(.*)", "destination": "/n8n-workflows/index.html" },
+    { "source": "/ai-agents/(.*)", "destination": "/ai-agents/index.html" },
+    { "source": "/mcp-servers/(.*)", "destination": "/mcp-servers/index.html" }
+  ],
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist"
+}
