@@ -13,6 +13,10 @@
     "build:ai-foundations": "slidev build decks/ai-foundations/slides.md --base /ai-foundations/ --out dist/ai-foundations",
     "export:ai-foundations": "slidev export decks/ai-foundations/slides.md",
 
+    "dev:ai-tools-landscape": "slidev decks/ai-tools-landscape/slides.md --open",
+    "build:ai-tools-landscape": "slidev build decks/ai-tools-landscape/slides.md --base /ai-tools-landscape/ --out dist/ai-tools-landscape",
+    "export:ai-tools-landscape": "slidev export decks/ai-tools-landscape/slides.md",
+
     "dev:prompt-engineering": "slidev decks/prompt-engineering/slides.md --open",
     "build:prompt-engineering": "slidev build decks/prompt-engineering/slides.md --base /prompt-engineering/ --out dist/prompt-engineering",
     "export:prompt-engineering": "slidev export decks/prompt-engineering/slides.md",
@@ -21,13 +25,41 @@
     "build:gemini-gems": "slidev build decks/gemini-gems/slides.md --base /gemini-gems/ --out dist/gemini-gems",
     "export:gemini-gems": "slidev export decks/gemini-gems/slides.md",
 
+    "dev:custom-gpts": "slidev decks/custom-gpts/slides.md --open",
+    "build:custom-gpts": "slidev build decks/custom-gpts/slides.md --base /custom-gpts/ --out dist/custom-gpts",
+    "export:custom-gpts": "slidev export decks/custom-gpts/slides.md",
+
     "dev:notebooklm": "slidev decks/notebooklm/slides.md --open",
     "build:notebooklm": "slidev build decks/notebooklm/slides.md --base /notebooklm/ --out dist/notebooklm",
     "export:notebooklm": "slidev export decks/notebooklm/slides.md",
 
+    "dev:ai-writing": "slidev decks/ai-writing/slides.md --open",
+    "build:ai-writing": "slidev build decks/ai-writing/slides.md --base /ai-writing/ --out dist/ai-writing",
+    "export:ai-writing": "slidev export decks/ai-writing/slides.md",
+
+    "dev:ai-data": "slidev decks/ai-data/slides.md --open",
+    "build:ai-data": "slidev build decks/ai-data/slides.md --base /ai-data/ --out dist/ai-data",
+    "export:ai-data": "slidev export decks/ai-data/slides.md",
+
+    "dev:ai-productivity": "slidev decks/ai-productivity/slides.md --open",
+    "build:ai-productivity": "slidev build decks/ai-productivity/slides.md --base /ai-productivity/ --out dist/ai-productivity",
+    "export:ai-productivity": "slidev export decks/ai-productivity/slides.md",
+
+    "dev:ai-creative": "slidev decks/ai-creative/slides.md --open",
+    "build:ai-creative": "slidev build decks/ai-creative/slides.md --base /ai-creative/ --out dist/ai-creative",
+    "export:ai-creative": "slidev export decks/ai-creative/slides.md",
+
+    "dev:ai-marketing": "slidev decks/ai-marketing/slides.md --open",
+    "build:ai-marketing": "slidev build decks/ai-marketing/slides.md --base /ai-marketing/ --out dist/ai-marketing",
+    "export:ai-marketing": "slidev export decks/ai-marketing/slides.md",
+
     "dev:n8n-workflows": "slidev decks/n8n-workflows/slides.md --open",
     "build:n8n-workflows": "slidev build decks/n8n-workflows/slides.md --base /n8n-workflows/ --out dist/n8n-workflows",
     "export:n8n-workflows": "slidev export decks/n8n-workflows/slides.md",
+
+    "dev:vibe-coding": "slidev decks/vibe-coding/slides.md --open",
+    "build:vibe-coding": "slidev build decks/vibe-coding/slides.md --base /vibe-coding/ --out dist/vibe-coding",
+    "export:vibe-coding": "slidev export decks/vibe-coding/slides.md",
 
     "dev:ai-agents": "slidev decks/ai-agents/slides.md --open",
     "build:ai-agents": "slidev build decks/ai-agents/slides.md --base /ai-agents/ --out dist/ai-agents",
@@ -35,7 +67,15 @@
 
     "dev:mcp-servers": "slidev decks/mcp-servers/slides.md --open",
     "build:mcp-servers": "slidev build decks/mcp-servers/slides.md --base /mcp-servers/ --out dist/mcp-servers",
-    "export:mcp-servers": "slidev export decks/mcp-servers/slides.md"
+    "export:mcp-servers": "slidev export decks/mcp-servers/slides.md",
+
+    "dev:ai-ethics": "slidev decks/ai-ethics/slides.md --open",
+    "build:ai-ethics": "slidev build decks/ai-ethics/slides.md --base /ai-ethics/ --out dist/ai-ethics",
+    "export:ai-ethics": "slidev export decks/ai-ethics/slides.md",
+
+    "dev:ai-strategy": "slidev decks/ai-strategy/slides.md --open",
+    "build:ai-strategy": "slidev build decks/ai-strategy/slides.md --base /ai-strategy/ --out dist/ai-strategy",
+    "export:ai-strategy": "slidev export decks/ai-strategy/slides.md"
   },
   "dependencies": {
     "@slidev/cli": "^52.14.1",

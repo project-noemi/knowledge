@@ -8,21 +8,31 @@ A multi-deck [Slidev](https://sli.dev/) repository for building, managing, and d
 
 ```
 knowledge/
-├── decks/                        # One subdirectory per presentation
-│   ├── example/                  # Slidev starter/reference deck
-│   ├── ai-foundations/           # What is AI, core concepts
-│   ├── prompt-engineering/       # Prompt techniques and best practices
-│   ├── gemini-gems/              # How to build custom Gemini assistants
-│   ├── notebooklm/               # NotebookLM features and use cases
-│   ├── n8n-workflows/            # n8n automation and AI workflows
-│   ├── ai-agents/                # Agents, tools, skills, and memory
-│   └── mcp-servers/              # Model Context Protocol explained
+├── decks/                          # One subdirectory per presentation
+│   ├── example/                    # Slidev starter/reference deck
+│   ├── ai-foundations/             # What is AI, core concepts
+│   ├── ai-tools-landscape/         # Map of major AI tools by category
+│   ├── prompt-engineering/         # Prompt techniques and best practices
+│   ├── gemini-gems/                # How to build custom Gemini assistants
+│   ├── custom-gpts/                # How to build Custom GPTs (OpenAI)
+│   ├── notebooklm/                 # NotebookLM features and use cases
+│   ├── ai-writing/                 # AI for writing and content creation
+│   ├── ai-data/                    # AI for data analysis and spreadsheets
+│   ├── ai-productivity/            # AI for meetings and productivity
+│   ├── ai-creative/                # AI image and video generation
+│   ├── ai-marketing/               # AI for marketing and sales
+│   ├── n8n-workflows/              # n8n automation and AI workflows
+│   ├── vibe-coding/                # Building with AI without coding
+│   ├── ai-agents/                  # Agents, tools, skills, and memory
+│   ├── mcp-servers/                # Model Context Protocol explained
+│   ├── ai-ethics/                  # Responsible AI use for business
+│   └── ai-strategy/                # AI strategy and business transformation
 ├── packages/
-│   └── theme-company/            # Shared company theme (Roboto, #1c63b7, logo)
-│       ├── styles/index.css      # Global styles + embedded logo
-│       └── images/               # Theme assets
+│   └── theme-company/              # Shared company theme (Roboto, #1c63b7, logo)
+│       ├── styles/index.css        # Global styles + embedded logo
+│       └── images/                 # Theme assets
 ├── scripts/
-│   └── build-all.sh              # Builds all decks into dist/
+│   └── build-all.sh                # Builds all decks into dist/
 ├── package.json
 ├── netlify.toml
 └── vercel.json
@@ -45,8 +55,8 @@ pnpm dev:<deck-name>
 
 # Examples
 pnpm dev:ai-foundations
-pnpm dev:prompt-engineering
-pnpm dev:mcp-servers
+pnpm dev:ai-writing
+pnpm dev:vibe-coding
 ```
 
 The dev server starts at `http://localhost:3030` with hot reload.
@@ -55,16 +65,87 @@ The dev server starts at `http://localhost:3030` with hot reload.
 
 ## Available Decks
 
+### Foundations
+
 | Deck | Command | Description |
 |------|---------|-------------|
 | **AI Foundations** | `pnpm dev:ai-foundations` | What AI is, data, algorithms, compute, the learning loop |
+| **AI Tools Landscape** | `pnpm dev:ai-tools-landscape` | Map of major AI tools by category — assistants, writing, image, code, automation |
+
+### Communication & Content
+
+| Deck | Command | Description |
+|------|---------|-------------|
 | **Prompt Engineering** | `pnpm dev:prompt-engineering` | Zero-shot, few-shot, CoT, role prompting, chaining |
+| **AI for Writing & Content** | `pnpm dev:ai-writing` | Drafting emails, reports, social posts, and summaries with AI |
+
+### Custom Assistants
+
+| Deck | Command | Description |
+|------|---------|-------------|
 | **Gemini Gems** | `pnpm dev:gemini-gems` | Creating custom Gemini assistants with instructions and files |
+| **Custom GPTs** | `pnpm dev:custom-gpts` | Building custom ChatGPT assistants with the GPT Builder |
 | **NotebookLM** | `pnpm dev:notebooklm` | Source-grounded AI research, audio overview, notebook guide |
+
+### Productivity & Data
+
+| Deck | Command | Description |
+|------|---------|-------------|
+| **AI for Data & Spreadsheets** | `pnpm dev:ai-data` | ChatGPT data analysis, Google Sheets AI, formula generation |
+| **AI for Meetings & Productivity** | `pnpm dev:ai-productivity` | Meeting transcription, email AI, calendar automation |
+
+### Creative & Marketing
+
+| Deck | Command | Description |
+|------|---------|-------------|
+| **AI Image & Video Generation** | `pnpm dev:ai-creative` | Midjourney, DALL-E, Runway, HeyGen — visual content creation |
+| **AI for Marketing & Sales** | `pnpm dev:ai-marketing` | Campaign copy, SEO, lead generation, CRM automation |
+
+### Automation & Development
+
+| Deck | Command | Description |
+|------|---------|-------------|
 | **n8n Workflows** | `pnpm dev:n8n-workflows` | Node-based automation, triggers, AI nodes, real-world examples |
+| **Vibe Coding** | `pnpm dev:vibe-coding` | Building tools and automations with AI — no coding experience required |
 | **AI Agents** | `pnpm dev:ai-agents` | Agent loop, tools, skills, memory types, multi-agent systems |
 | **MCP Servers** | `pnpm dev:mcp-servers` | Model Context Protocol, architecture, building custom servers |
+
+### Strategy & Responsibility
+
+| Deck | Command | Description |
+|------|---------|-------------|
+| **AI Ethics & Responsible Use** | `pnpm dev:ai-ethics` | Hallucinations, data privacy, bias, copyright, when not to use AI |
+| **AI Strategy for Business** | `pnpm dev:ai-strategy` | Identifying opportunities, ROI, adoption, governance, 90-day plan |
+
+### Reference
+
+| Deck | Command | Description |
+|------|---------|-------------|
 | **Example** | `pnpm dev:example` | Slidev feature showcase and reference |
+
+---
+
+## Suggested Workshop Flow
+
+```
+1.  AI Foundations           ← what is AI
+2.  AI Tools Landscape       ← what tools exist
+3.  Prompt Engineering       ← how to communicate with AI
+4.  AI for Writing           ← first practical skill
+5.  AI for Data              ← second practical skill
+6.  AI for Meetings          ← daily productivity
+7.  Gemini Gems              ← custom assistants (Google)
+8.  Custom GPTs              ← custom assistants (OpenAI)
+9.  NotebookLM               ← research use case
+10. AI Creative              ← image/video generation
+11. AI for Marketing         ← business application
+12. n8n Workflows            ← automation
+13. AI Agents                ← advanced automation
+14. Vibe Coding              ← build without coding
+15. MCP Servers              ← technical extension
+16. AI Ethics                ← responsible use
+17. AI Strategy              ← business transformation
+```
 
 ---
 
@@ -86,21 +167,7 @@ pnpm build:ai-foundations
 pnpm build
 ```
 
-This runs `scripts/build-all.sh` and outputs every deck to `dist/<deck-name>/`.
-
-```
-dist/
-├── ai-foundations/
-├── prompt-engineering/
-├── gemini-gems/
-├── notebooklm/
-├── n8n-workflows/
-├── ai-agents/
-├── mcp-servers/
-└── example/
-```
-
-Each deck is a self-contained static SPA, deployable independently or together under one domain.
+Output goes to `dist/<deck-name>/`. Each deck is a self-contained static SPA.
 
 **Export a deck to PDF:**
 
@@ -149,7 +216,7 @@ status = 200
 ```
 
 ```json
-// vercel.json — add before the closing bracket
+// vercel.json
 { "source": "/my-new-deck/(.*)", "destination": "/my-new-deck/index.html" }
 ```
 

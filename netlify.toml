@@ -16,6 +16,11 @@ to = "/ai-foundations/index.html"
 status = 200
 
 [[redirects]]
+from = "/ai-tools-landscape/*"
+to = "/ai-tools-landscape/index.html"
+status = 200
+
+[[redirects]]
 from = "/prompt-engineering/*"
 to = "/prompt-engineering/index.html"
 status = 200
@@ -26,13 +31,48 @@ to = "/gemini-gems/index.html"
 status = 200
 
 [[redirects]]
+from = "/custom-gpts/*"
+to = "/custom-gpts/index.html"
+status = 200
+
+[[redirects]]
 from = "/notebooklm/*"
 to = "/notebooklm/index.html"
 status = 200
 
 [[redirects]]
+from = "/ai-writing/*"
+to = "/ai-writing/index.html"
+status = 200
+
+[[redirects]]
+from = "/ai-data/*"
+to = "/ai-data/index.html"
+status = 200
+
+[[redirects]]
+from = "/ai-productivity/*"
+to = "/ai-productivity/index.html"
+status = 200
+
+[[redirects]]
+from = "/ai-creative/*"
+to = "/ai-creative/index.html"
+status = 200
+
+[[redirects]]
+from = "/ai-marketing/*"
+to = "/ai-marketing/index.html"
+status = 200
+
+[[redirects]]
 from = "/n8n-workflows/*"
 to = "/n8n-workflows/index.html"
+status = 200
+
+[[redirects]]
+from = "/vibe-coding/*"
+to = "/vibe-coding/index.html"
 status = 200
 
 [[redirects]]
@@ -43,4 +83,14 @@ status = 200
 [[redirects]]
 from = "/mcp-servers/*"
 to = "/mcp-servers/index.html"
+status = 200
+
+[[redirects]]
+from = "/ai-ethics/*"
+to = "/ai-ethics/index.html"
+status = 200
+
+[[redirects]]
+from = "/ai-strategy/*"
+to = "/ai-strategy/index.html"
 status = 200
