@@ -9,9 +9,9 @@
 <style scoped>
 .company-logo {
   position: fixed;
-  top: 16px;
-  right: 24px;
-  height: 36px;
+  top: 1.1rem;
+  right: 2rem;
+  height: 1.8rem;
   width: auto;
   z-index: 100;
   pointer-events: none;

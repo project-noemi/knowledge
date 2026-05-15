@@ -5,12 +5,12 @@ theme: ../../packages/theme-company
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://cover.sli.dev
 # some information about your slides (markdown enabled)
-title: Welcome to Slidev
+title: Üdvözöljük a Slidev-ben
 info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
+  ## Slidev kezdő sablon
+  Prezentációs diák fejlesztőknek.
 
-  Learn more at [Sli.dev](https://sli.dev)
+  Tudj meg többet: [Sli.dev](https://sli.dev)
 # apply UnoCSS classes to the current slide
 class: text-center
 # https://sli.dev/features/drawing
@@ -24,16 +24,16 @@ comark: true
 duration: 35min
 ---
 
-# Welcome to Slidev
+# Üdvözöljük a Slidev-ben
 
-Presentation slides for developers
+Prezentációs diák fejlesztőknek
 
 <div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
-  Press Space for next page <carbon:arrow-right />
+  Nyomja a Szóközt a következő oldalhoz <carbon:arrow-right />
 </div>
 
 <div class="abs-br m-6 text-xl">
-  <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="slidev-icon-btn">
+  <button @click="$slidev.nav.openInEditor()" title="Megnyitás szerkesztőben" class="slidev-icon-btn">
     <carbon:edit />
   </button>
   <a href="https://github.com/slidevjs/slidev" target="_blank" class="slidev-icon-btn">
@@ -42,32 +42,32 @@ Presentation slides for developers
 </div>
 
 <!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
+Az egyes diák utolsó megjegyzésblokkja dijegyzetként kezelődik. Előadói módban látható és szerkeszthető a diával együtt. [További információ a dokumentációban](https://sli.dev/guide/syntax.html#notes)
 -->
 
 ---
 transition: fade-out
 ---
 
-# What is Slidev?
+# Mi a Slidev?
 
-Slidev is a slides maker and presenter designed for developers, consist of the following features
+A Slidev fejlesztőknek készült diakészítő és előadóeszköz, az alábbi funkciókkal:
 
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - themes can be shared and re-used as npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embed Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export to PDF, PPTX, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - virtually anything that's possible on a webpage is possible in Slidev
+- 📝 **Szövegalapú** – a tartalomra fókuszálj Markdownban, a stílust később alakíthatod
+- 🎨 **Témázható** – a témák megoszthatók és újrahasználhatók npm csomagként
+- 🧑‍💻 **Fejlesztőbarát** – kódkiemelés, élő kódolás automatikus kiegészítéssel
+- 🤹 **Interaktív** – Vue komponensek beágyazása a kifejezéshez
+- 🎥 **Felvétel** – beépített rögzítés és kameranézet
+- 📤 **Hordozható** – export PDF-be, PPTX-be, PNG-be, vagy akár hostolható SPA-ként
+- 🛠 **Hackelhető** – ami egy weboldalon lehetséges, az a Slidev-ben is az
 <br>
 <br>
 
-Read more about [Why Slidev?](https://sli.dev/guide/why)
+További információ: [Miért Slidev?](https://sli.dev/guide/why)
 
 <!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/features/slide-scope-style
+Markdownban használhatsz `style` taget az aktuális oldal stílusának felülírásához.
+További információ: https://sli.dev/features/slide-scope-style
 -->
 
 <style>
@@ -83,7 +83,7 @@ h1 {
 </style>
 
 <!--
-Here is another comment.
+Itt egy másik megjegyzés.
 -->
 
 ---
@@ -91,18 +91,18 @@ transition: slide-up
 level: 2
 ---
 
-# Navigation
+# Navigáció
 
-Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/ui#navigation-bar)
+Vidd az egeret a bal alsó sarok fölé a navigációs vezérlőpanel megtekintéséhez, [további információ](https://sli.dev/guide/ui#navigation-bar)
 
-## Keyboard Shortcuts
+## Billentyűparancsok
 
-|                                                     |                             |
-| --------------------------------------------------- | --------------------------- |
-| <kbd>right</kbd> / <kbd>space</kbd>                 | next animation or slide     |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd>                                       | previous slide              |
-| <kbd>down</kbd>                                     | next slide                  |
+|                                                     |                                      |
+| --------------------------------------------------- | ------------------------------------ |
+| <kbd>right</kbd> / <kbd>space</kbd>                 | következő animáció vagy dia          |
+| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | előző animáció vagy dia              |
+| <kbd>up</kbd>                                       | előző dia                            |
+| <kbd>down</kbd>                                     | következő dia                        |
 
 <!-- https://sli.dev/guide/animations.html#click-animation -->
 <img
@@ -111,22 +111,22 @@ Hover on the bottom-left corner to see the navigation's controls panel, [learn m
   src="https://sli.dev/assets/arrow-bottom-left.svg"
   alt=""
 />
-<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
+<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Itt!</p>
 
 ---
 layout: two-cols
 layoutClass: gap-16
 ---
 
-# Table of contents
+# Tartalomjegyzék
 
-You can use the `Toc` component to generate a table of contents for your slides:
+A `Toc` komponenssel tartalomjegyzéket generálhatsz a diáidhoz:
 
 ```html
 <Toc minDepth="1" maxDepth="1" />
 ```
 
-The title will be inferred from your slide content, or you can override it with `title` and `level` in your frontmatter.
+A cím a dia tartalmából következik, vagy felülírhatod a frontmatter `title` és `level` mezőivel.
 
 ::right::
 
@@ -137,9 +137,9 @@ layout: image-right
 image: https://cover.sli.dev
 ---
 
-# Code
+# Kód
 
-Use code snippets and get the highlighting directly, and even types hover!
+Használj kódrészleteket közvetlen kiemeléssel, sőt típusok fölé is viheted az egeret!
 
 ```ts [filename-example.ts] {all|4|6|6-7|9|all} twoslash
 // TwoSlash enables TypeScript hover information
@@ -160,7 +160,7 @@ doubled.value = 2
 
 <!-- Footer -->
 
-[Learn more](https://sli.dev/features/line-highlighting)
+[További információ](https://sli.dev/features/line-highlighting)
 
 <!-- Inline style -->
 <style>
@@ -176,13 +176,13 @@ doubled.value = 2
 </style>
 
 <!--
-Notes can also sync with clicks
+A megjegyzések szinkronban lehetnek a kattintásokkal
 
-[click] This will be highlighted after the first click
+[click] Ez az első kattintás után lesz kiemelve
 
-[click] Highlighted with `count = ref(0)`
+[click] Kiemelve: `count = ref(0)`
 
-[click:3] Last click (skip two clicks)
+[click:3] Utolsó kattintás (két kattintás kihagyása)
 -->
 
 ---
@@ -191,9 +191,9 @@ level: 2
 
 # Shiki Magic Move
 
-Powered by [shiki-magic-move](https://shiki-magic-move.netlify.app/), Slidev supports animations across multiple code snippets.
+A [shiki-magic-move](https://shiki-magic-move.netlify.app/) támogatásával a Slidev animációkat támogat több kódrészlet között.
 
-Add multiple code blocks and wrap them with <code>````md magic-move</code> (four backticks) to enable the magic move. For example:
+Adj meg több kódblokkot, és csomagold be őket <code>````md magic-move</code> (négy backtick) jelöléssel a magic move engedélyezéséhez. Példa:
 
 ````md magic-move {lines: true}
 ```ts {*|2|*}
@@ -261,14 +261,14 @@ const author = {
 
 ---
 
-# Components
+# Komponensek
 
 <div grid="~ cols-2 gap-4">
 <div>
 
-You can use Vue components directly inside your slides.
+Vue komponenseket közvetlenül használhatsz a diáidban.
 
-We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
+Néhány beépített komponenst biztosítunk, mint a `<Tweet/>` és `<Youtube/>`, amelyeket azonnal használhatsz. Egyéni komponensek hozzáadása is egyszerű.
 
 ```html
 <Counter :count="10" />
@@ -277,7 +277,7 @@ We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that
 <!-- ./components/Counter.vue -->
 <Counter :count="10" m="t-4" />
 
-Check out [the guides](https://sli.dev/builtin/components.html) for more.
+További információ: [útmutatók](https://sli.dev/builtin/components.html).
 
 </div>
 <div>
@@ -292,12 +292,12 @@ Check out [the guides](https://sli.dev/builtin/components.html) for more.
 </div>
 
 <!--
-Presenter note with **bold**, *italic*, and ~~striked~~ text.
+Előadói megjegyzés **félkövér**, *dőlt* és ~~áthúzott~~ szöveggel.
 
-Also, HTML elements are valid:
+HTML elemek is érvényesek:
 <div class="flex w-full">
-  <span style="flex-grow: 1;">Left content</span>
-  <span>Right content</span>
+  <span style="flex-grow: 1;">Bal oldali tartalom</span>
+  <span>Jobb oldali tartalom</span>
 </div>
 -->
 
@@ -305,9 +305,9 @@ Also, HTML elements are valid:
 class: px-20
 ---
 
-# Themes
+# Témák
 
-Slidev comes with powerful theming support. Themes can provide styles, layouts, components, or even configurations for tools. Switching between themes by just **one edit** in your frontmatter:
+A Slidev erőteljes támátámogatással érkezik. A témák stílusokat, elrendezéseket, komponenseket vagy akár eszközkonfigurációkat adhatnak. Témaváltás **egyetlen szerkesztéssel** a frontmatterben:
 
 <div grid="~ cols-2 gap-2" m="t-2">
 
@@ -329,18 +329,18 @@ theme: seriph
 
 </div>
 
-Read more about [How to use a theme](https://sli.dev/guide/theme-addon#use-theme) and
-check out the [Awesome Themes Gallery](https://sli.dev/resources/theme-gallery).
+További információ: [Téma használata](https://sli.dev/guide/theme-addon#use-theme) és
+nézd meg a [Awesome Themes galériát](https://sli.dev/resources/theme-gallery).
 
 ---
 
-# Clicks Animations
+# Kattintásos animációk
 
-You can add `v-click` to elements to add a click animation.
+`v-click` direktívával kattintásos animációt adhatsz elemekhez.
 
 <div v-click>
 
-This shows up when you click the slide:
+Ez jelenik meg, amikor rákattintasz a diára:
 
 ```html
 <div v-click>This shows up when you click the slide.</div>
@@ -352,10 +352,10 @@ This shows up when you click the slide:
 
 <v-click>
 
-The <span v-mark.red="3"><code>v-mark</code> directive</span>
-also allows you to add
-<span v-mark.circle.orange="4">inline marks</span>
-, powered by [Rough Notation](https://roughnotation.com/):
+A <span v-mark.red="3"><code>v-mark</code> direktíva</span>
+lehetővé teszi
+<span v-mark.circle.orange="4">inline jelöléseket</span>
+is, a [Rough Notation](https://roughnotation.com/) alapján:
 
 ```html
 <span v-mark.underline.orange>inline markers</span>
@@ -365,15 +365,15 @@ also allows you to add
 
 <div mt-20 v-click>
 
-[Learn more](https://sli.dev/guide/animations#click-animation)
+[További információ](https://sli.dev/guide/animations#click-animation)
 
 </div>
 
 ---
 
-# Motions
+# Mozgások
 
-Motion animations are powered by [@vueuse/motion](https://motion.vueuse.org/), triggered by `v-motion` directive.
+A mozgásanimációkat az [@vueuse/motion](https://motion.vueuse.org/) hajtja, a `v-motion` direktívával aktiválva.
 
 ```html
 <div
@@ -445,7 +445,7 @@ const final = {
   :initial="{ x:35, y: 30, opacity: 0}"
   :enter="{ y: 0, opacity: 1, transition: { delay: 3500 } }">
 
-[Learn more](https://sli.dev/guide/animations.html#motion)
+[További információ](https://sli.dev/guide/animations.html#motion)
 
 </div>
 
@@ -453,7 +453,7 @@ const final = {
 
 # $\LaTeX$
 
-$\LaTeX$ is supported out-of-box. Powered by [$\KaTeX$](https://katex.org/).
+A $\LaTeX$ támogatott alapból. Motor: [$\KaTeX$](https://katex.org/).
 
 <div h-3 />
 
@@ -469,13 +469,13 @@ $$ {1|3|all}
 \end{aligned}
 $$
 
-[Learn more](https://sli.dev/features/latex)
+[További információ](https://sli.dev/features/latex)
 
 ---
 
-# Diagrams
+# Diagramok
 
-You can create diagrams / graphs from textual descriptions, directly in your Markdown.
+Diagramokat és gráfokat hozhatsz létre szöveges leírásból, közvetlenül a Markdownban.
 
 <div class="grid grid-cols-4 gap-5 pt-4 -mb-6">
 
@@ -547,7 +547,7 @@ database "MySql" {
 
 </div>
 
-Learn more: [Mermaid Diagrams](https://sli.dev/features/mermaid) and [PlantUML Diagrams](https://sli.dev/features/plantuml)
+További információ: [Mermaid diagramok](https://sli.dev/features/mermaid) és [PlantUML diagramok](https://sli.dev/features/plantuml)
 
 ---
 foo: bar
@@ -555,13 +555,13 @@ dragPos:
   square: 691,32,167,_,-16
 ---
 
-# Draggable Elements
+# Húzható elemek
 
-Double-click on the draggable elements to edit their positions.
+Dupla kattintással szerkesztheted a húzható elemek pozícióját.
 
 <br>
 
-###### Directive Usage
+###### Direktíva használata
 
 ```md
 <img v-drag="'square'" src="https://sli.dev/logo.png">
@@ -569,7 +569,7 @@ Double-click on the draggable elements to edit their positions.
 
 <br>
 
-###### Component Usage
+###### Komponens használata
 
 ```md
 <v-drag text-3xl>
@@ -580,13 +580,13 @@ Double-click on the draggable elements to edit their positions.
 
 <v-drag pos="663,206,261,_,-15">
   <div text-center text-3xl border border-main rounded>
-    Double-click me!
+    Dupla kattintás!
   </div>
 </v-drag>
 
 <img v-drag="'square'" src="https://sli.dev/logo.png">
 
-###### Draggable Arrow
+###### Húzható nyíl
 
 ```md
 <v-drag-arrow two-way />
@@ -601,11 +601,11 @@ hide: false
 
 ---
 
-# Monaco Editor
+# Monaco szerkesztő
 
-Slidev provides built-in Monaco Editor support.
+A Slidev beépített Monaco szerkesztőt biztosít.
 
-Add `{monaco}` to the code block to turn it into an editor:
+Add hozzá a `{monaco}` jelölést a kódblokkhoz, hogy szerkesztővé váljon:
 
 ```ts {monaco}
 import { ref } from 'vue'
@@ -614,7 +614,7 @@ import { emptyArray } from './external'
 const arr = ref(emptyArray(10))
 ```
 
-Use `{monaco-run}` to create an editor that can execute the code directly in the slide:
+A `{monaco-run}` futtatható szerkesztőt hoz létre, amely közvetlenül a dián futtathatja a kódot:
 
 ```ts {monaco-run}
 import { version } from 'vue'
@@ -630,8 +630,8 @@ layout: center
 class: text-center
 ---
 
-# Learn More
+# További információ
 
-[Documentation](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/resources/showcases)
+[Dokumentáció](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Bemutatók](https://sli.dev/resources/showcases)
 
 <PoweredBySlidev mt-10 />

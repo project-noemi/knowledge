@@ -71,6 +71,11 @@ to = "/n8n-workflows/index.html"
 status = 200
 
 [[redirects]]
+from = "/n8n-workflows-hu/*"
+to = "/n8n-workflows-hu/index.html"
+status = 200
+
+[[redirects]]
 from = "/vibe-coding/*"
 to = "/vibe-coding/index.html"
 status = 200
@@ -93,4 +98,89 @@ status = 200
 [[redirects]]
 from = "/ai-strategy/*"
 to = "/ai-strategy/index.html"
+status = 200
+
+[[redirects]]
+from = "/ai-agents-hu/*"
+to = "/ai-agents-hu/index.html"
+status = 200
+
+[[redirects]]
+from = "/ai-creative-hu/*"
+to = "/ai-creative-hu/index.html"
+status = 200
+
+[[redirects]]
+from = "/ai-data-hu/*"
+to = "/ai-data-hu/index.html"
+status = 200
+
+[[redirects]]
+from = "/ai-ethics-hu/*"
+to = "/ai-ethics-hu/index.html"
+status = 200
+
+[[redirects]]
+from = "/ai-foundations-hu/*"
+to = "/ai-foundations-hu/index.html"
+status = 200
+
+[[redirects]]
+from = "/ai-marketing-hu/*"
+to = "/ai-marketing-hu/index.html"
+status = 200
+
+[[redirects]]
+from = "/ai-productivity-hu/*"
+to = "/ai-productivity-hu/index.html"
+status = 200
+
+[[redirects]]
+from = "/ai-strategy-hu/*"
+to = "/ai-strategy-hu/index.html"
+status = 200
+
+[[redirects]]
+from = "/ai-tools-landscape-hu/*"
+to = "/ai-tools-landscape-hu/index.html"
+status = 200
+
+[[redirects]]
+from = "/ai-writing-hu/*"
+to = "/ai-writing-hu/index.html"
+status = 200
+
+[[redirects]]
+from = "/custom-gpts-hu/*"
+to = "/custom-gpts-hu/index.html"
+status = 200
+
+[[redirects]]
+from = "/example-hu/*"
+to = "/example-hu/index.html"
+status = 200
+
+[[redirects]]
+from = "/gemini-gems-hu/*"
+to = "/gemini-gems-hu/index.html"
+status = 200
+
+[[redirects]]
+from = "/mcp-servers-hu/*"
+to = "/mcp-servers-hu/index.html"
+status = 200
+
+[[redirects]]
+from = "/notebooklm-hu/*"
+to = "/notebooklm-hu/index.html"
+status = 200
+
+[[redirects]]
+from = "/prompt-engineering-hu/*"
+to = "/prompt-engineering-hu/index.html"
+status = 200
+
+[[redirects]]
+from = "/vibe-coding-hu/*"
+to = "/vibe-coding-hu/index.html"
 status = 200

@@ -13,17 +13,35 @@
   font-family: var(--slidev-theme-font-sans);
   background: #ffffff;
   color: #1c63b7;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 /* Headings */
 .slidev-layout h1 {
   color: #1c63b7;
-  font-size: 2.25rem;
+  font-size: 3rem;
   font-weight: 700;
   line-height: 1.2;
-  border-bottom: 3px solid #1c63b7;
-  padding-bottom: 0.4rem;
+  border-bottom: none;
+  padding-bottom: 0.5rem;
+  margin-top: 0;
   margin-bottom: 1.5rem;
+  margin-left: -2rem;
+  margin-right: -2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  position: relative;
+}
+
+.slidev-layout h1::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: #1c63b7;
 }
 
 .slidev-layout h2 {
@@ -50,8 +68,6 @@
 
 .slidev-layout.cover h1 {
   color: #1c63b7;
-  border-bottom-color: #1c63b7;
-  font-size: 3rem;
 }
 
 /* Code blocks */

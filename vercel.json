@@ -1,23 +1,149 @@
 {
   "rewrites": [
-    { "source": "/example/(.*)", "destination": "/example/index.html" },
-    { "source": "/ai-foundations/(.*)", "destination": "/ai-foundations/index.html" },
-    { "source": "/ai-tools-landscape/(.*)", "destination": "/ai-tools-landscape/index.html" },
-    { "source": "/prompt-engineering/(.*)", "destination": "/prompt-engineering/index.html" },
-    { "source": "/gemini-gems/(.*)", "destination": "/gemini-gems/index.html" },
-    { "source": "/custom-gpts/(.*)", "destination": "/custom-gpts/index.html" },
-    { "source": "/notebooklm/(.*)", "destination": "/notebooklm/index.html" },
-    { "source": "/ai-writing/(.*)", "destination": "/ai-writing/index.html" },
-    { "source": "/ai-data/(.*)", "destination": "/ai-data/index.html" },
-    { "source": "/ai-productivity/(.*)", "destination": "/ai-productivity/index.html" },
-    { "source": "/ai-creative/(.*)", "destination": "/ai-creative/index.html" },
-    { "source": "/ai-marketing/(.*)", "destination": "/ai-marketing/index.html" },
-    { "source": "/n8n-workflows/(.*)", "destination": "/n8n-workflows/index.html" },
-    { "source": "/vibe-coding/(.*)", "destination": "/vibe-coding/index.html" },
-    { "source": "/ai-agents/(.*)", "destination": "/ai-agents/index.html" },
-    { "source": "/mcp-servers/(.*)", "destination": "/mcp-servers/index.html" },
-    { "source": "/ai-ethics/(.*)", "destination": "/ai-ethics/index.html" },
-    { "source": "/ai-strategy/(.*)", "destination": "/ai-strategy/index.html" }
+    {
+      "source": "/example/(.*)",
+      "destination": "/example/index.html"
+    },
+    {
+      "source": "/ai-foundations/(.*)",
+      "destination": "/ai-foundations/index.html"
+    },
+    {
+      "source": "/ai-tools-landscape/(.*)",
+      "destination": "/ai-tools-landscape/index.html"
+    },
+    {
+      "source": "/prompt-engineering/(.*)",
+      "destination": "/prompt-engineering/index.html"
+    },
+    {
+      "source": "/gemini-gems/(.*)",
+      "destination": "/gemini-gems/index.html"
+    },
+    {
+      "source": "/custom-gpts/(.*)",
+      "destination": "/custom-gpts/index.html"
+    },
+    {
+      "source": "/notebooklm/(.*)",
+      "destination": "/notebooklm/index.html"
+    },
+    {
+      "source": "/ai-writing/(.*)",
+      "destination": "/ai-writing/index.html"
+    },
+    {
+      "source": "/ai-data/(.*)",
+      "destination": "/ai-data/index.html"
+    },
+    {
+      "source": "/ai-productivity/(.*)",
+      "destination": "/ai-productivity/index.html"
+    },
+    {
+      "source": "/ai-creative/(.*)",
+      "destination": "/ai-creative/index.html"
+    },
+    {
+      "source": "/ai-marketing/(.*)",
+      "destination": "/ai-marketing/index.html"
+    },
+    {
+      "source": "/n8n-workflows/(.*)",
+      "destination": "/n8n-workflows/index.html"
+    },
+    {
+      "source": "/vibe-coding/(.*)",
+      "destination": "/vibe-coding/index.html"
+    },
+    {
+      "source": "/ai-agents/(.*)",
+      "destination": "/ai-agents/index.html"
+    },
+    {
+      "source": "/mcp-servers/(.*)",
+      "destination": "/mcp-servers/index.html"
+    },
+    {
+      "source": "/ai-ethics/(.*)",
+      "destination": "/ai-ethics/index.html"
+    },
+    {
+      "source": "/ai-strategy/(.*)",
+      "destination": "/ai-strategy/index.html"
+    },
+    {
+      "source": "/ai-agents-hu/(.*)",
+      "destination": "/ai-agents-hu/index.html"
+    },
+    {
+      "source": "/ai-creative-hu/(.*)",
+      "destination": "/ai-creative-hu/index.html"
+    },
+    {
+      "source": "/ai-data-hu/(.*)",
+      "destination": "/ai-data-hu/index.html"
+    },
+    {
+      "source": "/ai-ethics-hu/(.*)",
+      "destination": "/ai-ethics-hu/index.html"
+    },
+    {
+      "source": "/ai-foundations-hu/(.*)",
+      "destination": "/ai-foundations-hu/index.html"
+    },
+    {
+      "source": "/ai-marketing-hu/(.*)",
+      "destination": "/ai-marketing-hu/index.html"
+    },
+    {
+      "source": "/ai-productivity-hu/(.*)",
+      "destination": "/ai-productivity-hu/index.html"
+    },
+    {
+      "source": "/ai-strategy-hu/(.*)",
+      "destination": "/ai-strategy-hu/index.html"
+    },
+    {
+      "source": "/ai-tools-landscape-hu/(.*)",
+      "destination": "/ai-tools-landscape-hu/index.html"
+    },
+    {
+      "source": "/ai-writing-hu/(.*)",
+      "destination": "/ai-writing-hu/index.html"
+    },
+    {
+      "source": "/custom-gpts-hu/(.*)",
+      "destination": "/custom-gpts-hu/index.html"
+    },
+    {
+      "source": "/example-hu/(.*)",
+      "destination": "/example-hu/index.html"
+    },
+    {
+      "source": "/gemini-gems-hu/(.*)",
+      "destination": "/gemini-gems-hu/index.html"
+    },
+    {
+      "source": "/mcp-servers-hu/(.*)",
+      "destination": "/mcp-servers-hu/index.html"
+    },
+    {
+      "source": "/n8n-workflows-hu/(.*)",
+      "destination": "/n8n-workflows-hu/index.html"
+    },
+    {
+      "source": "/notebooklm-hu/(.*)",
+      "destination": "/notebooklm-hu/index.html"
+    },
+    {
+      "source": "/prompt-engineering-hu/(.*)",
+      "destination": "/prompt-engineering-hu/index.html"
+    },
+    {
+      "source": "/vibe-coding-hu/(.*)",
+      "destination": "/vibe-coding-hu/index.html"
+    }
   ],
   "buildCommand": "npm run build",
   "outputDirectory": "dist"
