@@ -184,3 +184,8 @@ status = 200
 from = "/vibe-coding-hu/*"
 to = "/vibe-coding-hu/index.html"
 status = 200
+
+[[redirects]]
+from = "/ai-quiz-hu/*"
+to = "/ai-quiz-hu/index.html"
+status = 200

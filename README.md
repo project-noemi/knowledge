@@ -141,6 +141,12 @@ Hungarian decks use the same company theme and Slidev features (`v-click`, layou
 | **AI Ethics & Responsible Use** | `pnpm dev:ai-ethics` · `pnpm dev:ai-ethics-hu` | Hallucinations, data privacy, bias, copyright, when not to use AI |
 | **AI Strategy for Business** | `pnpm dev:ai-strategy` · `pnpm dev:ai-strategy-hu` | Identifying opportunities, ROI, adoption, governance, 90-day plan |
 
+### Workshop Quiz
+
+| Deck | Command | Description |
+|------|---------|-------------|
+| **AI Workshop Quiz (HU)** | `pnpm dev:ai-quiz-hu` | Interactive Hungarian quiz — 8 topics × 10 questions; Space reveals the correct answer |
+
 ### Reference
 
 | Deck | Command (EN / HU) | Description |

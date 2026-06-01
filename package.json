@@ -111,7 +111,10 @@
     "export:vibe-coding-hu": "slidev export decks/vibe-coding-hu/slides.md",
     "dev:example-hu": "slidev decks/example-hu/slides.md --open",
     "build:example-hu": "slidev build decks/example-hu/slides.md --base /example-hu/ --out dist/example-hu",
-    "export:example-hu": "slidev export decks/example-hu/slides.md"
+    "export:example-hu": "slidev export decks/example-hu/slides.md",
+    "dev:ai-quiz-hu": "slidev decks/ai-quiz-hu/slides.md --open",
+    "build:ai-quiz-hu": "slidev build decks/ai-quiz-hu/slides.md --base /ai-quiz-hu/ --out dist/ai-quiz-hu",
+    "export:ai-quiz-hu": "slidev export decks/ai-quiz-hu/slides.md"
   },
   "dependencies": {
     "@slidev/cli": "^52.14.1",

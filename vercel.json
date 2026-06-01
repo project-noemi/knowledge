@@ -143,6 +143,10 @@
     {
       "source": "/vibe-coding-hu/(.*)",
       "destination": "/vibe-coding-hu/index.html"
+    },
+    {
+      "source": "/ai-quiz-hu/(.*)",
+      "destination": "/ai-quiz-hu/index.html"
     }
   ],
   "buildCommand": "npm run build",
